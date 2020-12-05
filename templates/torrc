@@ -295,9 +295,10 @@ DoSConnectionDefenseType {{ tor_DoSConnectionDefenseType }}
 {% if tor_DoSRefuseSingleHopClientRendezvous is defined %}
 DoSRefuseSingleHopClientRendezvous {{ tor_DoSRefuseSingleHopClientRendezvous }}
 {% endif %}
-
+{#
 MyFamily {{ tor_family.stdout }}
 {% if tor_additional_MyFamily is defined %}
 MyFamily {{ tor_additional_MyFamily }}
 {% endif %}
+#}
 # end of torrc

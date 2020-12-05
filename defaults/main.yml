@@ -1,8 +1,5 @@
 ---
 
-# because of hack we need to define tor_family
-tor_family: {'stdout':'my_tor_family'} 
-
 tor_user: _tor
 tor_packages: tor
 tor_package_state: present
